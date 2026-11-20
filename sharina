@@ -31,7 +31,7 @@ while True:
         print("")
         print("Type 0 = exit program")
         print("=======================================")
-        choice = int(input("Pick a Number :"))
+        choice = int(input("Now pick a number and learn about it :"))
         if choice == 0:
             exit()
         elif choice == 1:
