@@ -220,15 +220,15 @@ They are used to explain codes or put mark on your code
 ("")
 elif choice == 5:
 print("\n - Variables & Data Types")
-print("")
+print("""
 WHAT IS VARIABLE
 Variable are names used to store data or information in Python
 
 Example:
 name = "shasha"
 age = 7
-
-print("")
+""")
+print("""
 while True:
     print("\nNow, choose which data type you would like to learn.")
     print("Type 0 to go back")
