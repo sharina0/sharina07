@@ -67,11 +67,9 @@ while True:
     Python treats uppercase and lowercase
     letters differently
 
-    Correct - Wrong -
-    name = "Kian"
-    name = "Kian"
-    print(name)
-    print(Name)
+    Correct -             Wrong -   
+    name = "Kian"         print(name) 
+    name = "Kian"         print(Name) 
 
     2.
     Indentation
@@ -79,13 +77,11 @@ while True:
     uses Indentation(Space) to define
     blocks of code.
 
-    Correct - Wrong -
-    Age = 18
-    Age = 18
-    if Age >= 18: if 
-    Age >= 18:
-    print("Adult")
-    print("Adult")
+    Correct -             Wrong -
+    Age = 18              if Age >= 18:
+    Age >= 18             if Age >= 18:              
+                          print("Adult")
+                          print("Adult")
 
     """)
         elif choice == 3:
@@ -97,6 +93,7 @@ while True:
         the screen Syntax print(value)
         print - the function of
         that displays output.
+        
         () - parentheses that contains
         the information to be displayed
         value - the
@@ -110,22 +107,18 @@ while True:
         Printing text Text(also called a string) must
         be enclosed in quotation marks.
 
-        Correct - Wrong -
-        print("Hello sunshine")
-        print(Hello
-        plain)
+        Correct -                     Wrong -
+        print("Hello sunshine")       print(Hello plain)
+
 
         Printing numbers
         You can print numbers directly
         without quotation marks.
 
-        Correct - Also
-        correct -
-        print(25)
-        print("25")
-        print(25.7)
-        print("25.7")
-
+        Correct -     Also     correct -  
+        print(25)               print(25.7)                          
+        print("25")             print("25.7")                         
+    
         """)
     except ValueError:
         print("")
