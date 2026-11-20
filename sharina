@@ -349,7 +349,7 @@ WHY USE LOOPS?
 
         if yn.upper() == "Y":
 
-            print("\nCODING PRACTICE")
+            print("\nPRACTICE")
             print("Type E to return to the main book:")
 
             while True:
