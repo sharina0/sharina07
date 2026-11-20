@@ -10,7 +10,7 @@ while True:
         print("")
         print("              CHAPTER 1             ")
         print("PRELIM LESSONS")
-        print("\n - Introduction to Programming")
+        print("\n 1- Introduction to Programming")
         print("2 - Basic Syntax")
         print("3 - Printing Output")
         print("4 - Python Comments")
@@ -21,12 +21,12 @@ while True:
         print("")
         print("              CHAPTER 2             ")
         print("MIDTERM LESSONS")
-        print("\n - Conditional Statement")
+        print("\n 9- Conditional Statement")
         print("10 - Logical Operators\n")
         print("")
         print("             FINAL CHAPTER          ")
         print("FINAL LESSONS")
-        print("\n - Introduction to Iterations & Loops")
+        print("\n 11- Introduction to Iterations & Loops")
         print("")
         print("")
         print("Type 0 = exit program")
@@ -35,7 +35,7 @@ while True:
         if choice == 0:
             exit()
         elif choice == 1:
-            print("\ - Introduction to Programming")
+            print("\ 1- Introduction to Programming")
             print("""
             PROGRAMMING LANGUAGE
     A programming language is a special language that
@@ -56,29 +56,16 @@ while True:
     4. Huge community - Lots support,tutorials, and libraries
             """)
         elif choice == 2:
-            print("\n2 - Basic Syntax")
+            print("\n 2- Basic Syntax")
             print("""
-    PYTHON
-    SYNTAX
-    Syntax
-    rules
-    that
-    tells
-    us
-    how
-    to
-    correctly
-    write
-    a
-    program in Python
+    PYTHON SYNTAX
+    Syntax rules that tells us how
+    to correctly write a program in Python
 
     1.
     Python is Case - Sensitive
-    Python
-    treats
-    uppercase and lowercase
-    letters
-    differently
+    Python treats uppercase and lowercase
+    letters differently
 
     Correct - Wrong -
     name = "Kian"
@@ -88,98 +75,49 @@ while True:
 
     2.
     Indentation
-    Unlike
-    other
-    coding
-    language, Python
-    uses
-    Indentation(Space)
-    to
-    define
-    blocks
-    of
-    code.
+    Unlike other coding language, Python
+    uses Indentation(Space) to define
+    blocks of code.
 
     Correct - Wrong -
     Age = 18
     Age = 18
-    if Age >= 18:        if
+    if Age >= 18: if 
     Age >= 18:
     print("Adult")
     print("Adult")
 
     """)
         elif choice == 3:
-            print("\n - Printing Output")
+            print("\n 3- Printing Output")
             print("""
         PRINT
         STATEMENT
-        The
-        print()
-        function
-        displays
-        information
-        the
-        screen
-        Syntax
-        print(value)
-
-        print - the
-        function
-        of
-        that
-        displays
-        output.
-        () - parentheses
-        that
-        contains
-        the
-        information
-        to
-        be
-        displayed
+        The print() function displays information
+        the screen Syntax print(value)
+        print - the function of
+        that displays output.
+        () - parentheses that contains
+        the information to be displayed
         value - the
-        text, number, variable, or expression
-        you
-        want
-        to
-        show
+        text, number, variable, or expression you
+        want to show
 
         Example
-        this
-        current
-        output
-        your
-        looking is used
-        by
-        print
-        statement
+        this current output your looking is used
+        by print statement
 
-        Printing
-        text
-        Text(also
-        called
-        a
-        string) must
-        be
-        enclosed in quotation
-        marks.
+        Printing text Text(also called a string) must
+        be enclosed in quotation marks.
 
         Correct - Wrong -
         print("Hello sunshine")
         print(Hello
         plain)
 
-        Printing
-        numbers
-        You
-        can
-        print
-        numbers
-        directly
-        without
-        quotation
-        marks.
+        Printing numbers
+        You can print numbers directly
+        without quotation marks.
 
         Correct - Also
         correct -
@@ -211,25 +149,18 @@ while True:
 
 
     elif choice == 4:
-        print("\n - Python Comments")
+        print("\n 4- Python Comments")
         print("""
 Python Comments
 Comments are ignored by Python (#)
 They are used to explain codes or put mark on your code
 ("")
 elif choice == 5:
-print("\n - Variables & Data Types")
+print("\n 5- Variables & Data Types")
 print("")
-        WHAT
-        IS
-        VARIABLE
-        Variable
-        are
-        names
-        used
-        to
-        store
-        data or information in Python
+        WHAT IS VARIABLE
+        Variable are names used to
+        store data or information in Python
 
         Example:
         name = "shasha"
