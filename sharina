@@ -1,171 +1,373 @@
 while True:
     try:
+        print("=======================================")
+        print("       WELCOME TO SHA PYTHON TUTORIAL")
+        print("=======================================")
 
-        print("=======================================")
-        print("WELCOME TO SHA PYTHON TUTORIAL")
-        print("=======================================")
-        print("")
-        print("HELLO WHAT LESSON WOULD YOU LIKE TO LEARN PICK ONE")
-        print("")
-        print("              CHAPTER 1             ")
-        print("BOOKS SECTION")
-        print("\n[1]- Introduction to Programming")
+        print("\n              CHAPTER 1")
+        print("              BOOKS SECTION")
+        print("[1] - Introduction to Programming")
         print("[2] - Basic Syntax")
         print("[3] - Printing Output")
         print("[4] - Python Comments")
         print("[5] - Variables & Data Types")
         print("[6] - Basic Data Types")
         print("[7] - Arithmetic Operators and Expressions")
-        print("[8] - Basic Input & Output\n")
-        print("")
-        print("              CHAPTER 2             ")
-        print("")
-        print("\n[9]- Conditional Statement")
-        print("[10] - Logical Operators\n")
-        print("")
-        print("             FINAL CHAPTER          ")
-        print("")
-        print("\n[11]- Introduction to Iterations & Loops")
-        print("")
-        print("")
-        print("Type 0 = exit program")
+        print("[8] - Basic Input & Output")
+
+        print("\n              CHAPTER 2")
+        print("[9] - Conditional Statements")
+        print("[10] - Logical Operators")
+
+        print("\n             FINAL CHAPTER")
+        print("[11] - Introduction to Iterations & Loops")
+
+        print("\nType 0 = Exit Program")
         print("=======================================")
-        choice = int(input("Now select your book chapter :"))
+
+        choice = int(input("Now select your book chapter: "))
+
         if choice == 0:
-            exit()
+            print("Thank you for using SHA PYTHON TUTORIAL!")
+            break
+
         elif choice == 1:
-            print("\ 1- Introduction to Programming")
+            print("\n1 - Introduction to Programming")
             print("""
-            PROGRAMMING LANGUAGE
-    A programming language is a special language that
-    computers understand and use to perform tasks
+PROGRAMMING LANGUAGE
 
+A programming language is a special language
+that computers understand and use to perform tasks.
 
-    Python is a widely-used programming language that
-    was created by Guido van Rossum in "1991"
+Python is a widely used programming language
+created by Guido van Rossum in 1991.
 
-    He design Python with the goal of making programming simple,
-    learn while remaining powerful enough for professional 
-    software development
+WHY LEARN PYTHON?
 
-    WHY LEARN PYTHON?
-    1. Simple and easy to learn - great for beginners
-    2. Readable syntax - Code looks almost like English
-    3. Versatile - Used in many fields (Ai, Web , automation games , etc.)
-    4. Huge community - Lots support,tutorials, and libraries
-            """)
-        elif choice == 2:
-            print("\n 2- Basic Syntax")
-            print("""
-    PYTHON SYNTAX
-    Syntax rules that tells us how
-    to correctly write a program in Python
-
-    1.
-    Python is Case - Sensitive
-    Python treats uppercase and lowercase
-    letters differently
-
-    Correct -             Wrong -   
-    name = "Kian"         print(name) 
-    name = "Kian"         print(Name) 
-
-    2.
-    Indentation
-    Unlike other coding language, Python
-    uses Indentation(Space) to define
-    blocks of code.
-
-    Correct -             Wrong -
-    Age = 18              if Age >= 18:
-    Age >= 18             if Age >= 18:              
-                          print("Adult")
-                          print("Adult")
-
-    """)
-        elif choice == 3:
-            print("\n 3- Printing Output")
-            print("""
-        PRINT
-        STATEMENT
-        The print() function displays information
-        the screen Syntax print(value)
-        print - the function of
-        that displays output.
-
-        () - parentheses that contains
-        the information to be displayed
-        value - the
-        text, number, variable, or expression you
-        want to show
-
-        Example
-        this current output your looking is used
-        by print statement
-
-        Printing text Text(also called a string) must
-        be enclosed in quotation marks.
-
-        Correct -                     Wrong -
-        print("Hello sunshine")       print(Hello plain)
-
-
-        Printing numbers
-        You can print numbers directly
-        without quotation marks.
-
-        Correct -     Also     correct -  
-        print(25)               print(25.7)                          
-        print("25")             print("25.7")                         
-
-        """)
-    except ValueError:
-        print("")
-
-while True:
-    print("Now Try it yourself :")
-    yn = input("Try coding? (Y/N) :")
-    if yn.upper() == "Y":
-
-        while True:
-            print("")
-            code = input("Input your code(type (e) for back) :")
-            if code.lower() == "e":
-                break
-            try:
-                exec(code)
-            except Exception as e:
-                print("ERROR:", e)
-        break
-
-
-
-    elif choice == 4:
-        print("\n 4- Python Comments")
-        print("""
-Python Comments
-Comments are ignored by Python (#)
-They are used to explain codes or put mark on your code
+1. Simple and easy to learn.
+2. Readable syntax.
+3. Versatile and useful in many fields.
+4. Has a huge community and many libraries.
 """)
-    elif choice == 5:
-        print("\n 5- Variables & Data Types")
-        print("""
-        WHAT IS VARIABLE
-        Variable are names used to
-        store data or information in Python
 
-        Example:
-        name = "shasha"
-        age = 7
-        """)
-        print("""
-while True:
-    print("\nNow, choose which data type you would like to learn.")
-    print("Type 0 to go back")
-    try:
-        data = int(input("Pick :"))
-        """)
-    elif yn.upper() == "N":
-        break
-    else:
-        print("INCORRECT VALUE")
+        elif choice == 2:
+            print("\n2 - Basic Syntax")
+            print("""
+PYTHON SYNTAX
+
+Syntax refers to the rules for correctly
+writing a program in Python.
+
+1. Python is Case-Sensitive.
+
+Correct:
+name = "Kian"
+print(name)
+
+Wrong:
+name = "Kian"
+print(Name)
+
+2. Indentation
+
+Python uses spaces to organize blocks of code.
+
+Correct:
+age = 18
+if age >= 18:
+    print("Adult")
+
+Wrong:
+age = 18
+if age >= 18:
+print("Adult")
+""")
+
+        elif choice == 3:
+            print("\n3 - Printing Output")
+            print("""
+PRINT STATEMENT
+
+The print() function displays information
+on the screen.
+
+SYNTAX:
+print(value)
+
+Examples:
+
+Printing text:
+print("Hello sunshine")
+
+Printing numbers:
+print(25)
+print(25.7)
+
+Printing variables:
+name = "Shasha"
+print(name)
+""")
+
+        elif choice == 4:
+            print("\n4 - Python Comments")
+            print("""
+PYTHON COMMENTS
+
+Comments are notes written inside a program.
+Python ignores comments when executing code.
+
+The # symbol is used to create a comment.
+
+Example:
+
+# This is a comment
+print("Hello World")
+
+WHY USE COMMENTS?
+
+1. To explain your code.
+2. To make your program easier to understand.
+3. To leave notes for other programmers.
+""")
+
+        elif choice == 5:
+            print("\n5 - Variables & Data Types")
+            print("""
+WHAT IS A VARIABLE?
+
+Variables are names used to store data
+or information in Python.
+
+Example:
+
+name = "Shasha"
+age = 18
+grade = 95
+
+To display variables:
+
+print(name)
+print(age)
+print(grade)
+
+Variables can store different kinds of data.
+""")
+
+        elif choice == 6:
+            print("\n6 - Basic Data Types")
+            print("""
+BASIC DATA TYPES IN PYTHON
+
+1. String (str)
+Used to store text.
+
+Example:
+name = "Shasha"
+
+2. Integer (int)
+Used to store whole numbers.
+
+Example:
+age = 18
+
+3. Float (float)
+Used to store decimal numbers.
+
+Example:
+height = 5.5
+
+4. Boolean (bool)
+Stores True or False values.
+
+Example:
+is_student = True
+
+You can check a data type using type().
+
+Example:
+print(type(age))
+""")
+
+        elif choice == 7:
+            print("\n7 - Arithmetic Operators and Expressions")
+            print("""
+ARITHMETIC OPERATORS
+
+Arithmetic operators are used to perform
+mathematical calculations.
+
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+% Modulus
+** Exponentiation
+// Floor Division
+
+Examples:
+
+print(10 + 5)
+print(10 - 5)
+print(10 * 5)
+print(10 / 5)
+print(10 % 3)
+print(2 ** 3)
+print(10 // 3)
+""")
+
+        elif choice == 8:
+            print("\n8 - Basic Input & Output")
+            print("""
+INPUT AND OUTPUT
+
+The input() function allows users
+to enter information.
+
+The print() function displays information.
+
+Example:
+
+name = input("Enter your name: ")
+print("Hello", name)
+
+For numerical input:
+
+age = int(input("Enter your age: "))
+print("Your age is", age)
+
+Remember:
+input() normally receives text.
+Use int() or float() when you need numbers.
+""")
+
+        elif choice == 9:
+            print("\n9 - Conditional Statements")
+            print("""
+CONDITIONAL STATEMENTS
+
+Conditional statements allow Python
+to make decisions.
+
+IF STATEMENT:
+
+age = 18
+
+if age >= 18:
+    print("You are an adult")
+
+IF-ELSE STATEMENT:
+
+age = 15
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+IF-ELIF-ELSE:
+
+score = 90
+
+if score >= 90:
+    print("Excellent")
+elif score >= 75:
+    print("Passed")
+else:
+    print("Failed")
+""")
+
+        elif choice == 10:
+            print("\n10 - Logical Operators")
+            print("""
+LOGICAL OPERATORS
+
+Logical operators combine conditional statements.
+
+1. AND
+Both conditions must be True.
+
+Example:
+age = 20
+print(age >= 18 and age <= 30)
+
+2. OR
+At least one condition must be True.
+
+Example:
+print(10 > 5 or 10 < 2)
+
+3. NOT
+Reverses the result.
+
+Example:
+print(not True)
+
+Logical operators are useful in making decisions.
+""")
+
+        elif choice == 11:
+            print("\n11 - Introduction to Iterations & Loops")
+            print("""
+INTRODUCTION TO LOOPS
+
+Loops allow a program to repeat a block of code.
+
+1. FOR LOOP
+
+Example:
+for i in range(5):
+    print(i)
+
+2. WHILE LOOP
+
+Example:
+number = 1
+
+while number <= 5:
+    print(number)
+    number += 1
+
+WHY USE LOOPS?
+
+1. To repeat instructions.
+2. To reduce repeated code.
+3. To make programs more efficient.
+""")
+
+        else:
+            print("INVALID CHOICE! Please select 0-11.")
+
+    except ValueError:
+        print("INVALID INPUT! Please enter a number.")
+
+    # ASK THE USER TO PRACTICE
+    while True:
+        print("\n=======================================")
+        print("          NOW TRY IT YOURSELF!")
+        print("=======================================")
+
+        yn = input("Would you like to try coding? (Y/N): ")
+
+        if yn.upper() == "Y":
+
+            print("\nCODING PRACTICE")
+            print("Type E to return to the main menu.")
+
+            while True:
+                code = input("\nInput your code: ")
+
+                if code.lower() == "e":
+                    break
+
+                try:
+                    exec(code)
+                except Exception as e:
+                    print("ERROR:", e)
+
+            break
+
+        elif yn.upper() == "N":
+            break
+
+        else:
+            print("INCORRECT VALUE! Please enter Y or N.")
