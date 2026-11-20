@@ -1,4 +1,3 @@
-
 while True:
     try:
 
@@ -10,23 +9,23 @@ while True:
         print("")
         print("              CHAPTER 1             ")
         print("BOOKS SECTION")
-        print("\n 1- Introduction to Programming")
-        print("2 - Basic Syntax")
-        print("3 - Printing Output")
-        print("4 - Python Comments")
-        print("5 - Variables & Data Types")
-        print("6 - Basic Data Types")
-        print("7 - Arithmethic Operators and Expressions")
-        print("8 - Basic Input & Output\n")
+        print("\n[1]- Introduction to Programming")
+        print("[2] - Basic Syntax")
+        print("[3] - Printing Output")
+        print("[4] - Python Comments")
+        print("[5] - Variables & Data Types")
+        print("[6] - Basic Data Types")
+        print("[7] - Arithmetic Operators and Expressions")
+        print("[8] - Basic Input & Output\n")
         print("")
         print("              CHAPTER 2             ")
         print("")
-        print("\n 9- Conditional Statement")
-        print("10 - Logical Operators\n")
+        print("\n[9]- Conditional Statement")
+        print("[10] - Logical Operators\n")
         print("")
         print("             FINAL CHAPTER          ")
         print("")
-        print("\n 11- Introduction to Iterations & Loops")
+        print("\n[11]- Introduction to Iterations & Loops")
         print("")
         print("")
         print("Type 0 = exit program")
@@ -93,7 +92,7 @@ while True:
         the screen Syntax print(value)
         print - the function of
         that displays output.
-        
+
         () - parentheses that contains
         the information to be displayed
         value - the
@@ -118,7 +117,7 @@ while True:
         Correct -     Also     correct -  
         print(25)               print(25.7)                          
         print("25")             print("25.7")                         
-    
+
         """)
     except ValueError:
         print("")
