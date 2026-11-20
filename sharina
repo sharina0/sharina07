@@ -1,8 +1,7 @@
-from sys import exception
 
 while True:
     try:
-        
+
         print("=======================================")
         print("WELCOME TO SHA PYTHON TUTORIAL")
         print("=======================================")
@@ -124,7 +123,7 @@ while True:
         screen
         Syntax
         print(value)
-        
+
         print - the
         function
         of
@@ -145,7 +144,7 @@ while True:
         want
         to
         show
-        
+
         Example
         this
         current
@@ -155,7 +154,7 @@ while True:
         by
         print
         statement
-        
+
         Printing
         text
         Text(also
@@ -165,12 +164,12 @@ while True:
         be
         enclosed in quotation
         marks.
-        
+
         Correct - Wrong -
         print("Hello sunshine")
         print(Hello
         plain)
-        
+
         Printing
         numbers
         You
@@ -181,14 +180,14 @@ while True:
         without
         quotation
         marks.
-        
+
         Correct - Also
         correct -
         print(25)
         print("25")
         print(25.7)
         print("25.7")
-        
+
         """)
     except ValueError:
         print("")
@@ -200,7 +199,7 @@ while True:
 
         while True:
             print("")
-            code = input ("Input your code(type (e) for back) :")
+            code = input("Input your code(type (e) for back) :")
             if code.lower() == "e":
                 break
             try:
@@ -212,23 +211,31 @@ while True:
 
 
     elif choice == 4:
-            print("\n - Python Comments")
-            print("""
+        print("\n - Python Comments")
+        print("""
 Python Comments
 Comments are ignored by Python (#)
 They are used to explain codes or put mark on your code
 ("")
 elif choice == 5:
 print("\n - Variables & Data Types")
-print("""
-WHAT IS VARIABLE
-Variable are names used to store data or information in Python
+print("")
+        WHAT
+        IS
+        VARIABLE
+        Variable
+        are
+        names
+        used
+        to
+        store
+        data or information in Python
 
-Example:
-name = "shasha"
-age = 7
-""")
-print("""
+        Example:
+        name = "shasha"
+        age = 7
+        """)
+        print("""
 while True:
     print("\nNow, choose which data type you would like to learn.")
     print("Type 0 to go back")
@@ -239,4 +246,3 @@ while True:
         break
     else:
         print("INCORRECT VALUE")
-
