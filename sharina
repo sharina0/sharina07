@@ -4,10 +4,10 @@ while True:
     try:
         
         print("=======================================")
-        print("PYTHON TUTORIAL")
+        print("WELCOME TO SHA PYTHON TUTORIAL")
         print("=======================================")
         print("")
-        print("WELCOME WHAT LESSON WOULD YOU LIKE TO LEARN PICK ONE")
+        print("HELLO WHAT LESSON WOULD YOU LIKE TO LEARN PICK ONE")
         print("")
         print("              CHAPTER 1             ")
         print("PRELIM LESSONS")
