@@ -146,10 +146,10 @@ while True:
 Python Comments
 Comments are ignored by Python (#)
 They are used to explain codes or put mark on your code
-("")
-elif choice == 5:
-print("\n 5- Variables & Data Types")
-print("")
+""")
+    elif choice == 5:
+        print("\n 5- Variables & Data Types")
+        print("""
         WHAT IS VARIABLE
         Variable are names used to
         store data or information in Python
