@@ -4,7 +4,6 @@ while True:
         print("=======================================")
         print("       WELCOME TO SHA PYTHON TUTORIAL")
         print("=======================================")
-
         print("\n              CHAPTER 1")
         print("              BOOKS SECTION")
         print("[1] - Introduction to Programming")
@@ -342,16 +341,12 @@ WHY USE LOOPS?
         print("INVALID INPUT! Please enter a number.")
 
     while True:
-        print("\n=======================================")
-        print("          BOOK SECTION")
-        print("=======================================")
-
-        yn = input("Would you like to try? (Y/N): ")
+             print("\n===========================================")
+        yn = input("Would you like to go back? (Y/N): ")
 
         if yn.upper() == "Y":
 
-            print("\n GOOD JOB")
-            print("Type E to return to the main book:")
+            print("\n Just type E to return to the BOOK SELECTION")
 
             while True:
                 code = input("\nInput your code: ")
