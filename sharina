@@ -336,21 +336,21 @@ WHY USE LOOPS?
 """)
 
         else:
-            print("INVALID CHOICE! Please select 0-11.")
+            print("INVALID Choice Please select 0-11.")
 
     except ValueError:
         print("INVALID INPUT! Please enter a number.")
 
     while True:
         print("\n=======================================")
-        print("          NOW TRY IT YOURSELF!")
+        print("          BOOK SECTION")
         print("=======================================")
 
         yn = input("Would you like to try? (Y/N): ")
 
         if yn.upper() == "Y":
 
-            print("\n PRACTICE")
+            print("\n GOOD JOB")
             print("Type E to return to the main book:")
 
             while True:
@@ -370,4 +370,4 @@ WHY USE LOOPS?
             break
 
         else:
-            print("INCORRECT VALUE! Please enter Y or N.")
+            print("INCORRECT Code Please enter Y or N.")
