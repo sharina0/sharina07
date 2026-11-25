@@ -29,7 +29,7 @@ while True:
         choice = int(input("Now select your book chapter: "))
 
         if choice == 0:
-            print("Thank you for using SHA PYTHON TUTORIAL!")
+            print("Thank you for using Sha python tutorial")
             break
 
         elif choice == 1:
