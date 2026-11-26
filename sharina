@@ -1,4 +1,3 @@
-
 while True:
     try:
         print("=======================================")
@@ -341,8 +340,8 @@ WHY USE LOOPS?
         print("INVALID INPUT! Please enter a number.")
 
     while True:
-             print("\n===========================================")
-        yn = input("Would you like to go back? (Y/N): ")
+        
+        yn = input("Thankyou for learning about it, would you like to learn another chapter (Y/N): ")
 
         if yn.upper() == "Y":
 
